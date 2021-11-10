@@ -10,3 +10,10 @@ https://cobusgreyling.medium.com/how-to-program-the-ibm-voice-agent-with-watson-
 https://medium.com/@anderanjos.ti/build-your-own-voice-assistant-with-react-native-node-js-and-watson-pt-1-a6f74f6b12ff
 
 [Bring Watson to Your Telephone: Introducing the IBM Voice](https://www.imwuc.org/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=7888fccd-8339-4d5b-a624-49ae7950edf0&forceDialog=1)
+
+
+How to check via curl to IBM Watson
+
+![Screenshot](screenshot.png)
+
+curl -X POST -u "apikey:<Key from screenshot>" --header "Content-Type:application/json" --data "{\"input\": {\"text\": \"Hello\"}}" "<URL from screenshot>?version=2021-06-14"
