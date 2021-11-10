@@ -14,6 +14,6 @@ https://medium.com/@anderanjos.ti/build-your-own-voice-assistant-with-react-nati
 
 How to check via curl to IBM Watson
 
-![Screenshot](screenshot.png)
+![Screenshot](images/IBM-Skill%20Settings.png)
 
 curl -X POST -u "apikey:<Key from screenshot>" --header "Content-Type:application/json" --data "{\"input\": {\"text\": \"Hello\"}}" "<URL from screenshot>?version=2021-06-14"
